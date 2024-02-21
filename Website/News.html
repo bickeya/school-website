@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<htlml>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Trai Secondary school</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img class="logo" src="eduford_img/mylogo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="News.html">NEWS</a></li>
+            <li><a href="Organizing.html">ORGANIZING COMMITTEE</a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li><a href="">Administrators</a></li>
+                  <li><a href="">Departments</a></i></li>
+                  <li><a href="">Grades & Classes</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>The Latest News</h1>
+    </section>
+    <!--News-->
+    <section id="blog">
+      <div class="blog-container">
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="eduford_img/idk.jpg">
+          </div>
+          <div class="blog-text">
+            <span>16 Febuary 2024/ Văn Công Thuyên</span>
+            <a href="post1.html" class="blog-title">🌎🌍🌏SÂN CHƠI "THIẾU NIÊN VIỆT NAM - CÔNG DÂN TOÀN CẦU" 🌎🌍🌏</a>
+            <p>Thực hiện theo Thông báo số 10 –TB/HĐĐ, ngày 12/12/2023 của Hội đồng Đội thành phố Phan Thiết về việc tham gia sân chơi “Thiếu niên Việt Nam – Công dân toàn cầu”. Liên đội thông báo triển khai tham gia đến các Chi đội với một số nội dung, cụ thể như sau:</p>
+            <a href="post1.html">Read More</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="eduford_img/p3.jpg">
+          </div>
+          <div class="blog-text">
+            <span>16 Febuary 2024/ Văn Công Thuyên</span>
+            <a href="post2.html" class="blog-title">🌸🌸Hưởng ứng Cuộc thi Vẽ tranh quốc tế Toyota với chủ đề “Chiếc ô tô mơ ước” năm 2023.</a>
+            <p>🌸🌸Thực hiện theo CV số 406/CV-BTNTP&NĐ ngày 12/9/2023 của Báo Thiếu niên Tiền Phong và Nhi đồng về việc tham gia cuộc thi vẽ tranh Quốc tế Toyota “ Chiếc ô tô mơ ước” năm 2023.</p>
+            <a href="post2.html">Read More</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="eduford_img/p2.jpg">
+          </div>
+          <div class="blog-text">
+            <span>16 Febuary 2024/ Văn Công Thuyên</span>
+            <a href="post3.html" class="blog-title">LIÊN ĐỘI TRƯỜNG THCS NGUYỄN TRÃI HOÀN THÀNH  CUỘC THI "HÀNH TRÌNH MÙA XUÂN LÊN RỪNG, XUỐNG BIỂN"</a>
+            <p>🌷Sau 3 tuần phát động và triển khai công văn của HĐĐ thành phố Phan Thiết, Liên đội Trường THCS Nguyễn Trãi đã hoàn thành các phần thi (viết, vẽ tranh) thể hiện ước mơ về bản làng, quê hương luôn đổi mới, về Tổ quốc, biển đảo Việt Nam. Qua đó các em luôn tự hào về quê hương đất nước, về Tổ quốc Việt Nam xinh tươi, giàu đẹp.</p>
+            <a href="post3.html">Read More</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Nguyen Trai Secondary School in Vietnam is a respected institution
+         named after scholar Nguyen Trai. It's known for a balanced approach <br>
+         to education, combining academic excellence with holistic development.
+          The school values traditional virtues alongside modern teaching<br> methods
+           and offers diverse extracurricular activities, fostering well-rounded individuals
+           . Dedicated educators guide students toward<br> academic success and personal growth
+           , making it a renowned hub for learning and character development.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Van Cong Thuyen </p>
+    </section>
+    <!---------Javascript for toggling menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</htlml>

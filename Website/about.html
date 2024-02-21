@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<htlml>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Trai Secondary school</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img class="logo" src="eduford_img/mylogo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="News.html">NEWS</a></li>
+            <li><a href="Organizing.html">ORGANIZING COMMITTEE</a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li><a href="">Administrators</a></li>
+                  <li><a href="">Departments</a></i></li>
+                  <li><a href="">Grades & Classes</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!---about us content-->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Nguyen Trai Secondary School is a famous school</h1>
+          <p>Nguyen Trai Secondary School in Vietnam is a respected institution
+            named after scholar Nguyen Trai. It's known for a balanced approach
+            to education, combining academic excellence with holistic development.
+             The school values traditional virtues alongside modern teaching methods
+              and offers diverse extracurricular activities, fostering well-rounded individuals
+              . Dedicated educators guide students toward academic success and personal growth
+              , making it a renowned hub for learning and character development.</p>
+          <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="eduford_img/us.jpg">
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Nguyen Trai Secondary School in Vietnam is a respected institution
+         named after scholar Nguyen Trai. It's known for a balanced approach <br>
+         to education, combining academic excellence with holistic development.
+          The school values traditional virtues alongside modern teaching<br> methods
+           and offers diverse extracurricular activities, fostering well-rounded individuals
+           . Dedicated educators guide students toward<br> academic success and personal growth
+           , making it a renowned hub for learning and character development.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Van Cong Thuyen </p>
+    </section>
+    <!---------Javascript for toggling menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</htlml>
